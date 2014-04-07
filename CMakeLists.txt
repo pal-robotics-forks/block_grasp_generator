@@ -115,3 +115,8 @@ target_link_libraries(block_grasp_generator_test
 
 
 
+install(DIRECTORY include/
+   DESTINATION ${CATKIN_GLOBAL_INCLUDE_DESTINATION}
+   FILES_MATCHING PATTERN "*.h"
+)
+
